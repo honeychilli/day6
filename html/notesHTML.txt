@@ -159,3 +159,5 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 Example
 <p title="I'm a tooltip">This is a paragraph.</p>
 
+HTML Canvas Graphics
+The HTML <canvas> element is used to draw graphics on a web page.

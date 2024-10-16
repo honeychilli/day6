@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="/submit-form" method="POST">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone">
+        </fieldset>
+      
+        <fieldset>
+          <legend>Address</legend>
+          <label for="street">Street:</label>
+          <input type="text" id="street" name="street" required>
+      
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" required>
+      
+          <label for="state">State:</label>
+          <select id="state" name="state">
+            <option value="">Select a state</option>
+            <option value="CA">California</option>
+            <option value="NY">New York</option>
+            <option value="FL">Florida</option>
+          </select>
+      
+          <label for="zip">Zip:</label>
+          <input type="text" id="zip" name="zip" required>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Additional Information</legend>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+      
+          <label for="terms">I agree to the terms and conditions:</label>
+          <input type="checkbox" id="terms" name="terms">
+        </fieldset>
+      
+        <input type="submit" value="Submit">
+      </form>     
+</body>
+</html>
